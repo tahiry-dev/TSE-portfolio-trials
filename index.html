@@ -222,15 +222,24 @@
         so if you'd like to chat please get in touch
       </h3>
     </aside>
-    <form action="">
-      <input type="text" id="firstName" name="firstName" placeholder="First Name" maxlength="30" required>
-      <input type="text" id="lastName" name="lastName" placeholder="Last Name" maxlength="30" required>
-      <input type="email" id="email" name="email" placeholder="Email address" required>
-      <textarea id="message" name="message" rows="4" cols="50" maxlength="500" required>
-      Hello Marine. Glad to see you!
-      </textarea>
-      <input type="submit" value="Submit">
-    </form>
+    <div class="form-field">
+      <form action="">
+        <div class="name">
+          <input class="firstName" type="text" id="firstName" name="firstName" placeholder="First Name" maxlength="30"
+            required>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" maxlength="30" required>
+        </div>
+        <div class="email">
+          <input type="email" id="email" name="email" placeholder="Email address" required>
+        </div>
+        <textarea id="message" name="message" rows="6" cols="50" maxlength="500" required>
+Hello Marine. Glad to see you!
+        </textarea>
+        <div class="submit-button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
   </footer>
 
   <script src="https://kit.fontawesome.com/e966a3bd22.js" crossorigin="anonymous"></script>
