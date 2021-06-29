@@ -326,7 +326,7 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-/* -----------------------FOOTER--------------------------------*/
+/* -----------------------FOOTER-------------------------------- */
 
 .footer-up {
   display: grid;
@@ -338,17 +338,13 @@ aside {
   position: static;
   width: 455px;
   height: 256px;
-  left: 0px;
-  top: 0px;
-
-  font-family: Inter;
+  left: 0;
+  top: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  
   margin-right: 50px;
-
   display: flex;
   align-items: center;
 }
@@ -357,8 +353,7 @@ aside {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-
+  padding: 0;
   position: static;
   width: 684px;
   height: 330px;
@@ -366,21 +361,23 @@ aside {
   top: 130px;
 }
 
-.name, .email, .message, .submit-button {
+.name,
+.email,
+.message,
+.submit-button {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
-  
+  padding: 0;
   position: static;
   width: 684px;
   height: 48px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 textarea {
-  background: #FBF8F7;
+  background: #fbf8f7;
   margin-bottom: 10px;
 }
 
@@ -388,18 +385,22 @@ textarea {
   margin-right: 20px;
 }
 
-input[type="text"], input[type="email"], textarea {
- width: 100%
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
   border-top: none;
   border-left: none;
   border-right: none;
 }
 
-input[type="text"]:focus, input[type="email"]:focus {
- outline: none;
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: none;
 }
 
 input[type="submit"] {
@@ -407,15 +408,13 @@ input[type="submit"] {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  
   position: static;
   width: 70px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2 + 141px);
-  
-  background: #F55800;
-  color: #FFFFFF;
+  left: 0;
+  top: calc(50% - 48px / 2 + 141px);
+  background: #f55800;
+  color: #fff;
 }
 
 .footer-down {
@@ -423,8 +422,7 @@ input[type="submit"] {
   margin-top: 10px;
   margin-left: 45%;
 }
- 
-hr {
+
+.footer_divider {
   width: 100%;
 }
-
