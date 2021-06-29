@@ -329,11 +329,9 @@ li {
 /* -----------------------FOOTER--------------------------------*/
 
 .footer-up {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 130px 30px;
-  margin-bottom: -80px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding: 130px 20px;
 }
 
 aside {

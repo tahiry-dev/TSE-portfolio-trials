@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "hint": "^6.1.4"
+  },
+  "dependencies": {
+    "@types/source-map": "^0.5.2"
+  }
+}
