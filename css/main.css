@@ -328,13 +328,12 @@ li {
 
 /* -----------------------FOOTER--------------------------------*/
 
-footer {
+.footer-up {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 130px 0px;
-  position: absolute;
-  left: 135px;
+  padding: 130px 30px;
+  margin-bottom: -80px;
 }
 
 aside {
@@ -349,6 +348,8 @@ aside {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+  
+  margin-right: 50px;
 
   display: flex;
   align-items: center;
@@ -410,13 +411,22 @@ input[type="submit"] {
   padding: 12px;
   
   position: static;
-  width: 122px;
+  width: 70px;
   height: 48px;
   left: 0px;
   top: calc(50% - 48px/2 + 141px);
   
   background: #F55800;
-  
-  
   color: #FFFFFF;
 }
+
+.footer-down {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 45%;
+}
+ 
+hr {
+  width: 100%;
+}
+
